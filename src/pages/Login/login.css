@@ -1,0 +1,94 @@
+.login {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(253, 253, 116, 0.6),
+      rgba(253, 253, 116, 0.6)
+    ),
+    url(/public/img/new-login-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 3rem;
+  font-family: 'Fugaz one', cursive;
+  color: rgb(191, 255, 0);
+  text-shadow: 3px 3px rgb(0, 145, 255);
+  border-bottom: 5px dotted rgb(167, 62, 248);
+  padding-bottom: 0.5rem;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 1rem 0;
+  padding: 2rem 1.5rem;
+  width: 30%;
+  background-color: rgb(255, 252, 155);
+  box-shadow: 5px 5px rgb(76, 169, 240);
+}
+
+.loginForm label {
+  font-size: 1.1rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(0, 162, 255);
+}
+
+.loginInput {
+  margin: 0.3rem 0 1rem 0;
+  height: 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(187, 234, 252);
+  border: 3px solid rgb(234, 187, 252);
+}
+
+.loginButton {
+  margin-top: 1rem;
+  align-self: center;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(252, 132, 20);
+  border: none;
+  background-color: rgb(225, 212, 249);
+  box-shadow: 3px 3px rgb(60, 68, 117);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: rgb(217, 251, 205);
+  text-shadow: 2px 2px rgb(239, 211, 248);
+  box-shadow: 7px 7px rgb(223, 142, 250);
+  font-size: 1.3rem;
+}
+
+.loginButton:disabled {
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+.loginRegisterButton {
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  font-family: 'Lusitana', serif;
+  cursor: pointer;
+  color: rgb(180, 3, 109);
+  padding-bottom: 0.2rem;
+  border-bottom: 3px dotted rgb(161, 162, 255);
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.loginRegisterButton:hover {
+  font-size: 1.3rem;
+  text-shadow: 2px 2px rgb(243, 246, 55);
+  border-bottom: 4px dotted rgb(235, 84, 175);
+}

@@ -1,0 +1,26 @@
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Fugaz One', cursive;
+}
+
+.headerTitlePre {
+  position: absolute;
+  font-size: 2rem;
+  top: 25%;
+  color: #d6ecf2;
+}
+
+.headerTitleMain {
+  position: absolute;
+  font-size: 6rem;
+  top: 30%;
+  color: #efd345;
+}
+
+.headerImg {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}

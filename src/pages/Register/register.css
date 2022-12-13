@@ -1,0 +1,96 @@
+.register {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 186, 245, 0.6),
+      rgba(255, 186, 245, 0.6)
+    ),
+    url(/public/img/register-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 3rem;
+  font-family: 'Fugaz one', cursive;
+  color: rgb(186, 82, 250);
+  text-shadow: 3px 3px rgb(210, 232, 249);
+  border-bottom: 5px dotted rgb(174, 249, 82);
+  padding-bottom: 0.5rem;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 1rem 0;
+  padding: 2rem 1.5rem;
+  width: 30%;
+  background-color: rgb(255, 252, 155);
+  box-shadow: 5px 5px rgb(76, 169, 240);
+}
+
+.registerForm label {
+  font-size: 1.1rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(0, 162, 255);
+}
+
+.registerInput {
+  margin: 0.3rem 0 1rem 0;
+  height: 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(187, 234, 252);
+  border: 3px solid rgb(234, 187, 252);
+}
+
+.registerButton {
+  margin-top: 1rem;
+  align-self: center;
+  width: 30%;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(180, 3, 109);
+  border: none;
+  background-color: rgb(225, 212, 249);
+  box-shadow: 3px 3px rgb(60, 68, 117);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.registerButton:hover {
+  background-color: rgb(217, 251, 205);
+  text-shadow: 2px 2px rgb(239, 211, 248);
+  box-shadow: 7px 7px rgb(223, 142, 250);
+  font-size: 1.3rem;
+}
+
+.registerLoginButton {
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  font-family: 'Lusitana', serif;
+  cursor: pointer;
+  color: rgb(227, 111, 2);
+  padding-bottom: 0.2rem;
+  border-bottom: 3px dotted rgb(235, 84, 175);
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.registerLoginButton:hover {
+  font-size: 1.3rem;
+  text-shadow: 2px 2px rgb(243, 246, 55);
+  border-bottom: 4px dotted rgb(235, 84, 175);
+}
+.err {
+  margin-top: 1rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(190, 13, 13);
+  text-shadow: 1px 1px rgb(211, 152, 70);
+  font-size: 1.2rem;
+}

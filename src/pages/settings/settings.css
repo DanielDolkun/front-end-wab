@@ -1,0 +1,145 @@
+.settings {
+  display: flex;
+}
+
+.settingsContainer {
+  flex: 9;
+  margin: 4rem;
+  padding: 3rem;
+  background-color: rgb(210, 255, 165);
+  height: fit-content;
+  box-shadow: 5px 5px rgb(78, 128, 254);
+}
+
+.settingTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.settingsUpdateTitle {
+  font-size: 2.2rem;
+  font-family: 'Fugaz one', cursive;
+  color: rgb(250, 153, 27);
+  text-shadow: 2px 2px rgb(115, 96, 199);
+  padding-bottom: 0.4rem;
+  border-bottom: 5px dotted rgb(251, 233, 38);
+}
+
+.settingsDeleteTitle {
+  font-size: 0.8rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(130, 16, 16);
+  background-color: rgb(252, 130, 109);
+  padding: 0.7rem;
+  border-radius: 50%;
+  box-shadow: 3px 3px rgb(147, 35, 35);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.settingsDeleteTitle:hover {
+  box-shadow: 5px 5px rgb(147, 35, 35);
+  font-size: 0.9rem;
+}
+
+.settingsForm {
+  display: flex;
+}
+
+.settingsPP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1rem 0 0;
+  padding: 1rem 0 1rem 0;
+  background-color: rgb(250, 131, 104);
+  border-radius: 3px;
+  box-shadow: 4px 4px rgb(244, 225, 99);
+}
+
+.PPLabel {
+  font-size: 1.5rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(234, 255, 0);
+}
+
+.settingsPP img {
+  width: 80%;
+  margin: 1rem 0 1rem 0;
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(255, 166, 33);
+}
+
+.settingsPPIcon {
+  font-size: 1.5rem;
+  background-color: rgb(123, 248, 248);
+  color: rgb(2, 160, 213);
+  padding: 0.7rem 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.settingsPPIcon:hover {
+  box-shadow: 4px 4px rgb(1, 120, 160);
+}
+
+.settingsInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+  background-color: rgb(204, 159, 245);
+  margin-top: 2rem;
+  box-shadow: 4px 4px rgb(115, 96, 199);
+  border-radius: 3px;
+}
+
+.settingsInfo input {
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(181, 223, 250);
+  border: solid 3px rgb(115, 96, 199);
+}
+
+.settingsInfo label {
+  font-size: 1.2rem;
+  font-family: 'Lusitana', serif;
+  color: rgb(246, 252, 177);
+}
+
+.settingsSubmit {
+  align-self: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 1rem;
+  font-family: 'Fugaz one', cursive;
+  color: rgb(249, 249, 122);
+  background-color: rgb(115, 96, 199);
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px rgb(255, 247, 2);
+  transition: all 0.3s;
+}
+
+.settingsSubmit:hover {
+  box-shadow: 7px 7px rgb(255, 247, 2);
+  text-shadow: 3px 3px rgb(8, 20, 244);
+  font-size: 1.6rem;
+}
+.successfulUpdate {
+  margin-top: 1rem;
+  font-family: 'Courgette', cursive;
+  color: rgb(172, 246, 158);
+  text-shadow: 1px 1px rgb(53, 59, 232);
+  font-size: 1.2rem;
+  align-self: center;
+}
